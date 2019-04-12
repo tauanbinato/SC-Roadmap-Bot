@@ -23,6 +23,11 @@ bot.on("message" , async message => {
   let cmd = messageArray[0];
   //looking for args
   let args = messageArray.slice(1);
+
+  if (cmd === `${prefix}hello`) {
+    return message.channel.send("Hello!");
+  }
+
 })
 
 //Bot login authorization
