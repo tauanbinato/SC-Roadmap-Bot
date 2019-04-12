@@ -1,0 +1,8 @@
+{
+"name": "SC Roadmap Bot",
+"version": "1.0.0",
+"description": "Bot em construção para acompanhar o roadmap do jogo Star Citizen",
+"main": "bot.js",
+"author": "Tauan Binato",
+"dependencies": {}
+}
