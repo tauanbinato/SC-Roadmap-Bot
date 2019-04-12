@@ -1,8 +1,12 @@
 {
-"name": "SC Roadmap Bot",
-"version": "1.0.0",
-"description": "Bot em construção para acompanhar o roadmap do jogo Star Citizen",
-"main": "bot.js",
-"author": "Tauan Binato",
-"dependencies": {}
+  "name": "SC Roadmap Bot",
+  "version": "1.0.0",
+  "description": "Bot em construcao para acompanhar o roadmap do jogo Star Citizen",
+  "main": "bot.js",
+  "author": "Tauan Binato",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.4.2",
+    "winston": "^3.2.1"
+  }
 }
